@@ -31,6 +31,7 @@ export const create = async (options: StartOptions) => {
     root,
     mode: 'development',
     clearScreen: false,
+    logLevel: 'info',
 
     resolve: {
       dedupe: ['react', 'react-dom'],

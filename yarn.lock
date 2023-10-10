@@ -4336,6 +4336,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tamagui/vite-native-hmr@npm:^1.74.7":
+  version: 1.74.7
+  resolution: "@tamagui/vite-native-hmr@npm:1.74.7"
+  dependencies:
+    pretty-format: ^28.1.0
+  peerDependencies:
+    react-native: "*"
+  checksum: a334e50ea931cbe5bf3eeba43c6e8a256e524a1b5e662893ac4de63ccc8e65f497df154779d00cd5898bf0d816f4009ba10b7bd672e10848b3120724aa71bc57
+  languageName: node
+  linkType: hard
+
 "@tamagui/vite-plugin@npm:1.74.8, @tamagui/vite-plugin@npm:latest":
   version: 1.74.8
   resolution: "@tamagui/vite-plugin@npm:1.74.8"
@@ -4915,6 +4926,7 @@ __metadata:
   resolution: "@vxrn/react-native-prebuilt@workspace:packages/react-native-prebuilt"
   dependencies:
     "@babel/core": ^7.21.8
+    "@tamagui/vite-native-hmr": ^1.74.7
     esbuild: ~0.19.3
     fs-extra: ^11.1.0
     metro-react-native-babel-preset: ^0.77.0

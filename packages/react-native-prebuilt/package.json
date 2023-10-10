@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.21.8",
+    "@tamagui/vite-native-hmr": "^1.74.7",
     "esbuild": "~0.19.3",
     "fs-extra": "^11.1.0",
     "metro-react-native-babel-preset": "^0.77.0",
